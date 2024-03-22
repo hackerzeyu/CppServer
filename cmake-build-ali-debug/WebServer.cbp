@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WebServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/code/WebServer/cmake-build-ali-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/code/WebServer/cmake-build-ali-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/code/WebServer/cmake-build-ali-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer">
+				<Option output="/root/code/WebServer/cmake-build-ali-debug/WebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/code/WebServer/cmake-build-ali-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/code/WebServer/Log"/>
+					<Add directory="/root/code/WebServer/Reactor"/>
+					<Add directory="/root/code/WebServer/Tcp"/>
+					<Add directory="/root/code/WebServer/thread"/>
+					<Add directory="/root/code/WebServer/utility"/>
+					<Add directory="/root/code/WebServer/Protocol"/>
+					<Add directory="/root/code/WebServer/Task"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 WebServer"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer/fast">
+				<Option output="/root/code/WebServer/cmake-build-ali-debug/WebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/code/WebServer/cmake-build-ali-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/code/WebServer/Log"/>
+					<Add directory="/root/code/WebServer/Reactor"/>
+					<Add directory="/root/code/WebServer/Tcp"/>
+					<Add directory="/root/code/WebServer/thread"/>
+					<Add directory="/root/code/WebServer/utility"/>
+					<Add directory="/root/code/WebServer/Protocol"/>
+					<Add directory="/root/code/WebServer/Task"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 WebServer/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/code/WebServer/cmake-build-ali-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/code/WebServer/Log/log.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Log/log.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Protocol/HttpHandler.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Protocol/HttpHandler.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Protocol/convert.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Protocol/convert.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Reactor/Channel.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Reactor/Channel.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Reactor/EventLoop.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Reactor/EventLoop.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Reactor/EventPoller.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Reactor/EventPoller.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Task/HttpTask.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Task/HttpTask.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Task/ReadTask.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Task/ReadTask.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Tcp/ConnectionManager.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Tcp/ConnectionManager.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Tcp/Server.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/Tcp/Server.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/main.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/thread/Thread.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/thread/Thread.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/thread/ThreadPool.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/thread/ThreadPool.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/thread/WorkerThread.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/thread/WorkerThread.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/utility/System.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/utility/System.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/utility/ini_file.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/utility/ini_file.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/utility/value.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/utility/value.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/root/code/WebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

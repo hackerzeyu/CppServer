@@ -35,6 +35,7 @@ public:
     void activate(int fd,int events);       //激活事件回调
     void run();                             //循环监听
     void eraseChannel(Channel* channel);    //删除channel
+    inline Channel* get(int fd){return m_channelMap[fd];}
     inline void set_id(std::thread::id id){m_id=id;}
     inline std::thread::id get_id(){return m_id;}
 private:

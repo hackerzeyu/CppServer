@@ -81,15 +81,16 @@ void EventPoller::run(int milliseconds)
             int fd = m_events[i].data.fd;
             if (ev & EPOLLHUP)
             {
-                //此处应该触发事件异常回调，为了省略触发读回调直接断开连接
                 log_error("socket hang up,connfd=%d", fd);
-                m_evLoop->addTask(m_channel,Type::DEL);
+                //销毁异常连接
+                m_evLoop->addTask(m_evLoop->get(fd),Type::DEL);
                 continue;
             }
             if(ev & EPOLLERR)
             {
                 log_error("socket error,connfd=%d",fd);
-                m_evLoop->addTask(m_channel,Type::DEL);
+                //销毁异常连接
+                m_evLoop->addTask(m_evLoop->get(fd),Type::DEL);
                 continue;
             }
             if (ev & EPOLLIN)

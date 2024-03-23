@@ -1,3 +1,0 @@
-/root/code/WebServer/cmake-build-ali-debug/CMakeFiles/rebuild_cache.dir
-/root/code/WebServer/cmake-build-ali-debug/CMakeFiles/edit_cache.dir
-/root/code/WebServer/cmake-build-ali-debug/CMakeFiles/WebServer.dir

@@ -19,7 +19,7 @@ void Server::init()
     logger->setLevel(static_cast<Log::Level>(level));
     //启动日志
     //Singleton<Log>::instance()->open(sys.get_root_path()+"/Log/server.log");
-    logger->open((sys.get_root_path()+"/Log/server.log");
+    logger->open(sys.get_root_path()+"/Log/server.log");
     m_mainLoop=new EventLoop;
     m_mainLoop->set_id(std::this_thread::get_id());
     //创建线程池(8个线程)
